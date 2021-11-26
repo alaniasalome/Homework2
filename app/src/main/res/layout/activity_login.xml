@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96D7DF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="40dp"
+        android:text=" HELLO SALO"
+        android:textColor="#2CB2EF"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Email"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Password"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2CB2EF"
+        android:text="login"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="don't have accoint ? Sign up!"
+        android:paddingLeft="110dp"
+        android:textSize="19dp"
+        android:textColor="@color/teal_700"/>
+
+
+
+</LinearLayout>
